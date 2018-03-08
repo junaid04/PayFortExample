@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54EC4D12204FBA20004659DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC4D11204FBA20004659DE /* AppDelegate.swift */; };
+		54EC4D14204FBA20004659DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC4D13204FBA20004659DE /* ViewController.swift */; };
+		54EC4D17204FBA20004659DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EC4D15204FBA20004659DE /* Main.storyboard */; };
+		54EC4D19204FBA20004659DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EC4D18204FBA20004659DE /* Assets.xcassets */; };
+		54EC4D1C204FBA20004659DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EC4D1A204FBA20004659DE /* LaunchScreen.storyboard */; };
+		54EC4D2F204FBDED004659DE /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC4D2E204FBDED004659DE /* StringExt.swift */; };
+		54EC4D34204FC392004659DE /* PayFortSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC4D32204FC391004659DE /* PayFortSDK.framework */; };
+		54EC4D35204FC392004659DE /* PayFortSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54EC4D33204FC392004659DE /* PayFortSDK.bundle */; };
+		5AF25BE24D8030B72F7992BB /* Pods_FortPaymentExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB3349212B2E476CD99B5C9 /* Pods_FortPaymentExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		495E3339F6CC3D5F42DBCD58 /* Pods-FortPaymentExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortPaymentExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortPaymentExample/Pods-FortPaymentExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB3349212B2E476CD99B5C9 /* Pods_FortPaymentExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortPaymentExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EC4D0E204FBA20004659DE /* FortPaymentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortPaymentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EC4D11204FBA20004659DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54EC4D13204FBA20004659DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54EC4D16204FBA20004659DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54EC4D18204FBA20004659DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54EC4D1B204FBA20004659DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54EC4D1D204FBA20004659DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EC4D29204FBAF7004659DE /* FortPaymentExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FortPaymentExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		54EC4D2E204FBDED004659DE /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		54EC4D32204FC391004659DE /* PayFortSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PayFortSDK.framework; sourceTree = "<group>"; };
+		54EC4D33204FC392004659DE /* PayFortSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PayFortSDK.bundle; sourceTree = "<group>"; };
+		7B11E1A90B6FE62DB2430871 /* Pods-FortPaymentExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortPaymentExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortPaymentExample/Pods-FortPaymentExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54EC4D0B204FBA20004659DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EC4D34204FC392004659DE /* PayFortSDK.framework in Frameworks */,
+				5AF25BE24D8030B72F7992BB /* Pods_FortPaymentExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060E9FDE4589186EFC2D1609 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				495E3339F6CC3D5F42DBCD58 /* Pods-FortPaymentExample.debug.xcconfig */,
+				7B11E1A90B6FE62DB2430871 /* Pods-FortPaymentExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54EC4D05204FBA20004659DE = {
+			isa = PBXGroup;
+			children = (
+				54EC4D10204FBA20004659DE /* FortPaymentExample */,
+				54EC4D0F204FBA20004659DE /* Products */,
+				54EC4D30204FC364004659DE /* Frameworks */,
+				060E9FDE4589186EFC2D1609 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		54EC4D0F204FBA20004659DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54EC4D0E204FBA20004659DE /* FortPaymentExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54EC4D10204FBA20004659DE /* FortPaymentExample */ = {
+			isa = PBXGroup;
+			children = (
+				54EC4D2D204FBDD8004659DE /* Extension */,
+				54EC4D11204FBA20004659DE /* AppDelegate.swift */,
+				54EC4D13204FBA20004659DE /* ViewController.swift */,
+				54EC4D15204FBA20004659DE /* Main.storyboard */,
+				54EC4D18204FBA20004659DE /* Assets.xcassets */,
+				54EC4D1A204FBA20004659DE /* LaunchScreen.storyboard */,
+				54EC4D1D204FBA20004659DE /* Info.plist */,
+				54EC4D29204FBAF7004659DE /* FortPaymentExample-Bridging-Header.h */,
+			);
+			path = FortPaymentExample;
+			sourceTree = "<group>";
+		};
+		54EC4D2D204FBDD8004659DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				54EC4D2E204FBDED004659DE /* StringExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		54EC4D30204FC364004659DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54EC4D33204FC392004659DE /* PayFortSDK.bundle */,
+				54EC4D32204FC391004659DE /* PayFortSDK.framework */,
+				4AB3349212B2E476CD99B5C9 /* Pods_FortPaymentExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54EC4D0D204FBA20004659DE /* FortPaymentExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EC4D20204FBA20004659DE /* Build configuration list for PBXNativeTarget "FortPaymentExample" */;
+			buildPhases = (
+				421C6D3E9CECFD8D173CA61C /* [CP] Check Pods Manifest.lock */,
+				54EC4D0A204FBA20004659DE /* Sources */,
+				54EC4D0B204FBA20004659DE /* Frameworks */,
+				54EC4D0C204FBA20004659DE /* Resources */,
+				89F63ACDDC0F8E2102B52027 /* [CP] Embed Pods Frameworks */,
+				CE421FECD2114D8247D3CA8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortPaymentExample;
+			productName = FortPaymentExample;
+			productReference = 54EC4D0E204FBA20004659DE /* FortPaymentExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54EC4D06204FBA20004659DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Appabilities;
+				TargetAttributes = {
+					54EC4D0D204FBA20004659DE = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54EC4D09204FBA20004659DE /* Build configuration list for PBXProject "FortPaymentExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54EC4D05204FBA20004659DE;
+			productRefGroup = 54EC4D0F204FBA20004659DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54EC4D0D204FBA20004659DE /* FortPaymentExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54EC4D0C204FBA20004659DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EC4D35204FC392004659DE /* PayFortSDK.bundle in Resources */,
+				54EC4D1C204FBA20004659DE /* LaunchScreen.storyboard in Resources */,
+				54EC4D19204FBA20004659DE /* Assets.xcassets in Resources */,
+				54EC4D17204FBA20004659DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		421C6D3E9CECFD8D173CA61C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortPaymentExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F63ACDDC0F8E2102B52027 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FortPaymentExample/Pods-FortPaymentExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortPaymentExample/Pods-FortPaymentExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE421FECD2114D8247D3CA8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortPaymentExample/Pods-FortPaymentExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54EC4D0A204FBA20004659DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EC4D14204FBA20004659DE /* ViewController.swift in Sources */,
+				54EC4D2F204FBDED004659DE /* StringExt.swift in Sources */,
+				54EC4D12204FBA20004659DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54EC4D15204FBA20004659DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EC4D16204FBA20004659DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54EC4D1A204FBA20004659DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EC4D1B204FBA20004659DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54EC4D1E204FBA20004659DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54EC4D1F204FBA20004659DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54EC4D21204FBA20004659DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495E3339F6CC3D5F42DBCD58 /* Pods-FortPaymentExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQE9UYDGM5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FortPaymentExample/Resources/Fort\\ SDK\\ 1.6",
+					"$(PROJECT_DIR)/FortPaymentExample/Resources/Fort\\ SDK\\ 1.6",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FortPaymentExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appabilities.FortPaymentExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FortPaymentExample/FortPaymentExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54EC4D22204FBA20004659DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B11E1A90B6FE62DB2430871 /* Pods-FortPaymentExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQE9UYDGM5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FortPaymentExample/Resources/Fort\\ SDK\\ 1.6",
+					"$(PROJECT_DIR)/FortPaymentExample/Resources/Fort\\ SDK\\ 1.6",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FortPaymentExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appabilities.FortPaymentExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FortPaymentExample/FortPaymentExample-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54EC4D09204FBA20004659DE /* Build configuration list for PBXProject "FortPaymentExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EC4D1E204FBA20004659DE /* Debug */,
+				54EC4D1F204FBA20004659DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EC4D20204FBA20004659DE /* Build configuration list for PBXNativeTarget "FortPaymentExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EC4D21204FBA20004659DE /* Debug */,
+				54EC4D22204FBA20004659DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54EC4D06204FBA20004659DE /* Project object */;
+}
