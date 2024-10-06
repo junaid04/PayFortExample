@@ -164,7 +164,9 @@ class ViewController: UIViewController {
         dict.setValue("email@domain.com", forKey: "customer_email")
         dict.setValue(LANGUAGE_TYPE, forKey: "language")
         dict.setValue("\(numberRandom)", forKey: "merchant_reference")
-        dict.setValue(responseData["sdk_token"] as! String , forKey: "sdk_token")
+        if let token = responseData["sdk_token"] as? String {
+            dict.setValue(token, forKey: "sdk_token")
+        }
         
         print(dict)
         
